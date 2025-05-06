@@ -1,3 +1,4 @@
+import { ContactMeForm } from "@/components/ContactMeForm";
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export const ContactMe = () => {
@@ -11,7 +12,8 @@ export const ContactMe = () => {
           <h2 className="text-lg md:text-4xl mb-4 text-gray-100 font-bold underline decoration-blue-400 text-center">
             CONTACT ME
           </h2>
-          <div className="shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 "></div>
+
+          <ContactMeForm />
         </div>
       </RevealOnScroll>
     </section>
