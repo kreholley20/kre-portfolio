@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Timeline } from "@/components/ui/timeline";
 import { RevealOnScroll } from "./RevealOnScroll";
 import { Lens } from "@/components/magicui/lens";
@@ -143,6 +144,25 @@ export const About = () => {
                 with a focus on quality and efficiency.
               </li>
             </ol>
+            <div className="w-full h-[2px] bg-blue-400 mt-2"></div>
+            <div className="mt-4 font-semibold text-[1rem]">
+              <p>
+                As a Software Developer at Tech Friends, I work on the
+                development and maintenance of TeamResponse.com, a web-based
+                platform designed to support jail administration and
+                correctional facility operations. My role involves building and
+                enhancing user-facing features using{" "}
+                <span className="text-blue-400">React</span> for the frontend,
+                while leveraging <span className="text-blue-400">.NET</span> and{" "}
+                <span className="text-blue-400">C#</span> on the backend to
+                ensure secure and efficient processing of data. I also utilize
+                <span className="text-blue-400"> Redux</span> for state
+                management to provide a responsive and consistent user
+                experience. The platform is tailored to assist correctional
+                staff in managing communication, monitoring activity, and
+                streamlining daily administrative tasks within facilities.
+              </p>
+            </div>
           </div>
           <div className="flex flex-col justify-center items-center">
             <img
